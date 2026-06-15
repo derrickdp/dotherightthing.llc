@@ -456,7 +456,7 @@ form.addEventListener('submit', async (e) => {
         const data = await response.json();
 
         if (response.ok) {
-            alert("Success! Your message has been sent.");
+            
 			msg.classList.remove('hidden');
             msg.innerHTML = "Thank you for reaching out. I'll be in touch soon.";
             form.reset();
